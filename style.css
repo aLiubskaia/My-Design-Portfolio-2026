@@ -1,0 +1,30 @@
+/* Сброс стилей */
+
+body {
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  background-color: transparent;
+}
+
+/* Сами стили */
+
+.nav {
+  max-width: 640px;
+  padding-left: 60px;
+  padding-right: 60px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+button {
+  border: solid 1px;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
