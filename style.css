@@ -3,12 +3,24 @@
   src: url(assets/font/InterTight-VariableFont_wght.ttf);
 }
 
-/* Сброс стилей */
-
 body {
   font-family: InterTight;
   margin: 0;
   overflow: hidden;
+  /* Color variables */
+  --dark: #1A1A1A;
+  --white: #FFFFFF;
+
+  background-color: var(--white);
+}
+
+/* Color classes */
+.dark {
+  color: var(--dark);
+}
+
+.white {
+  color: var(--white);
 }
 
 li {
@@ -100,6 +112,7 @@ button {
   border: solid 1px;
   border-radius: 20px;
   padding: 10px 20px;
+  color: var(--dark);
 }
 
 .main-button {
